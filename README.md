@@ -2,6 +2,19 @@
 
 Este repositório contém a configuração pessoal do WezTerm para o terminal. O arquivo de configuração é escrito em Lua e define algumas opções visuais e de comportamento do terminal.
 
+## Instalação via Flatpak no Linux
+
+1. Instale o Flatpak, se ainda não estiver instalado.
+   - Em distribuições baseadas em Debian/Ubuntu: `sudo apt install flatpak`
+   - Em Fedora: `sudo dnf install flatpak`
+   - Em Arch Linux/Manjaro: `sudo pacman -S flatpak`
+2. Adicione o repositório Flathub (se ainda não tiver):
+   - `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`
+3. Instale o WezTerm:
+   - `flatpak install flathub org.wezfurlong.wezterm`
+4. Execute o WezTerm:
+   - `flatpak run org.wezfurlong.wezterm`
+
 ## O que este arquivo faz
 
 A configuração em `.wezterm.lua` define:
