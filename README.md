@@ -30,4 +30,4 @@ A configuração em `.wezterm.lua` define:
 
 ## Como usar
 
-Coloque o arquivo `.wezterm.lua` na pasta de configuração do WezTerm (normalmente `~/.config/wezterm/`) e reinicie o WezTerm para aplicar as alterações.
+Coloque o arquivo `.wezterm.lua` na pasta de configuração do WezTerm (normalmente `~/.config/wezterm/`) e reinicie o WezTerm para aplicar as alterações (geralmente CTRL + SHIFT + R).
